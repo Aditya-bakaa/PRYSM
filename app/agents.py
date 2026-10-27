@@ -1,7 +1,4 @@
-"""Three parallel competing agents. Groq native strict JSON Schema; fixtures for a safe demo.
 
-Model outputs select only catalogue features; numerical metrics always come from engine.
-"""
 import itertools
 import json
 import os
