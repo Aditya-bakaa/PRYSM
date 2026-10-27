@@ -1,8 +1,4 @@
-"""Illustrative deterministic evaluator. No real-world construction certification implied.
 
-The same function evaluates agent proposals, manual claims, stress cases and hybrid.
-No unsupported model number enters a computed metric.
-"""
 from .reference_data import (BASELINE_OPERATIONAL_CARBON_PER_M2_YEAR,
     FEATURES, MATERIALS, OPERATIONAL_HORIZON_YEARS, SCENARIOS)
 from .schemas import ClaimCheck, Evaluation, Metrics, Problem, Proposal, ScenarioResult
